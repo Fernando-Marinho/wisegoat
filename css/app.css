@@ -140,9 +140,9 @@ body {
     background-color: var(--roxo-claro);
 }
 
-.author__author {
+.output__author {
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: var(--bege);
     text-align: right;
 }
