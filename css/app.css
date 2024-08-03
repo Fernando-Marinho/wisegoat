@@ -116,6 +116,12 @@ body {
     animation: float 6s ease-in-out infinite;
 }
 
+@media only screen and (max-width: 600px) {
+    .image-goat-alt {
+        display: none;
+    }
+}
+
 .header {
     padding: 1rem 0 0 2rem;
 }
@@ -192,4 +198,8 @@ body {
     color: var(--bege);
     text-align: right;
     animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.btn_novo_conselho {
+    margin-top: 15px;
 }
